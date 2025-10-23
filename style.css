@@ -1,0 +1,82 @@
+/* General styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  background: #131313;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  background: #fff;
+  padding: 25px;
+  border-radius: 100px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.inputs {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.inputs label {
+  margin: 5px;
+  font-weight: bold;
+}
+
+.inputs input {
+  margin: 5px;
+  padding: 5px;
+}
+
+.inputs button {
+  margin-top: 10px;
+  
+  padding: 20px 15px;
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.inputs button:hover {
+  background: #219150;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.timer span {
+  font-size: 1.5em;
+  color: #e67e22;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: red;
+}
+
+footer {
+  margin-top: 100px;
+  font-size: 0.9em;
+  color: #666;
+}

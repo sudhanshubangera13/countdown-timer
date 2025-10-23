@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Countdown Timer</h1>
+
+    <!-- Input Section -->
+    <div class="inputs">
+      <label for="date">Set Date:</label>
+      <input type="date" id="date">
+
+      <label for="time">Set Time:</label>
+      <input type="time" id="time">
+
+      <button onclick="startCountdown()">Start</button>
+    </div>
+
+    <!-- Display Section -->
+    <div class="timer">
+      <p><span id="days">00</span> Days</p>
+      <p><span id="hours">00</span> Hours</p>
+      <p><span id="minutes">00</span> Minutes</p>
+      <p><span id="seconds">00</span> Seconds</p>
+    </div>
+
+    <!-- Message -->
+    <p id="message"></p>
+  </div>
+
+  <footer>
+    <p>By Sudhanshu Bangera</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
